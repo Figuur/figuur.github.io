@@ -1,0 +1,57 @@
+body {
+	background-color: #000;
+	position: relative;
+  	top: 0;
+  	left: 0;
+  	color: #909090;
+    font-family: "Trebuchet MS", verdana, sans-serif;
+
+}
+
+header {
+	
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	margin: 0 10% 0 10%;
+	background-image: url(mainBack.png);
+	background-size: cover;
+    /*background-repeat: repeat-y2;*/
+    position: absolute;
+  	top:  199px;
+ 	left: 0px;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.grip {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.logo {
+  position: absolute;
+  top: -69px;
+  left: 700px;
+}
+
+#para {
+	width: 1200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px dashed white;
+  margin: 5px;
+  padding: 20px;
+  position: relative;
+  top: 200px;
+}
+
+#imboard {
+
+}
